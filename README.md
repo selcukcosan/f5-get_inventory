@@ -329,3 +329,71 @@ curl -s -k -u "admin:password" https://192.168.1.245/mgmt/tm/sys/version | json_
 ```bash
 curl -s -k -u "admin:password" https://192.168.1.245/mgmt/tm/sys/hardware | json_pp
 ```
+
+```json
+{
+      "https://localhost/mgmt/tm/sys/hardware/platform" : {
+         "nestedStats" : {
+            "entries" : {
+               "https://localhost/mgmt/tm/sys/hardware/platform/0" : {
+                  "nestedStats" : {
+                     "entries" : {
+                        "baseMac" : {
+                           "description" : "aa:bb:cc:b7:79:a0"
+                        },
+                        "biosRev" : {
+                           "description" : " "
+                        },
+                        "cloudName" : {
+                           "description" : " "
+                        },
+                        "hypervisorName" : {
+                           "description" : "VMware Virtual Platform"
+                        },
+                        "marketingName" : {
+                           "description" : "BIG-IP Virtual Edition"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "https://localhost/mgmt/tm/sys/hardware/system-info" : {
+         "nestedStats" : {
+            "entries" : {
+               "https://localhost/mgmt/tm/sys/hardware/system-info/0" : {
+                  "nestedStats" : {
+                     "entries" : {
+                        "bigipChassisSerialNum" : {
+                           "description" : "aabbccdd-eeff-c019-8daca9b779a0"
+                        },
+                        "hostBoardPartRevNum" : {
+                           "description" : " "
+                        },
+                        "hostBoardSerialNum" : {
+                           "description" : " "
+                        },
+                        "platform" : {
+                           "description" : "Z100"
+                        },
+                        "project_200LevelBomNum" : {
+                           "description" : " "
+                        },
+                        "switchBoardPartRevNum" : {
+                           "description" : " "
+                        },
+                        "switchBoardSerialNum" : {
+                           "description" : " "
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   },
+   "kind" : "tm:sys:hardware:hardwarestats",
+   "selfLink" : "https://localhost/mgmt/tm/sys/hardware?ver=15.1.10.2"
+}
+```
