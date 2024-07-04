@@ -273,8 +273,55 @@ When we run the script, bigip7 and bigip9 was unreachable. So that the informati
 	}
 }
 ```
-# Collecting same Information via curl
-curl -s -k -u "admin:password" https://192.168.1.245/mgmt/tm/sys/version | json_pp
-```bash
+# Collecting Same Information via curl
 
+```bash
+curl -s -k -u "admin:password" https://192.168.1.245/mgmt/tm/sys/version | json_pp
+```
+```json
+{
+   "entries" : {
+      "https://localhost/mgmt/tm/sys/version/0" : {
+         "nestedStats" : {
+            "entries" : {
+               "Build" : {
+                  "description" : "0.44.2"
+               },
+               "Date" : {
+                  "description" : "Wed Oct 25 15:58:18 PDT 2023"
+               },
+               "Edition" : {
+                  "description" : "Engineering Hotfix"
+               },
+               "Product" : {
+                  "description" : "BIG-IP"
+               },
+               "Title" : {
+                  "description" : "Main Package"
+               },
+               "Version" : {
+                  "description" : "15.1.10.2"
+               }
+            }
+         }
+      },
+      "https://localhost/mgmt/tm/sys/version/1" : {
+         "nestedStats" : {
+            "entries" : {
+               "ID1117229_2" : {
+                  "description" : "ID1117229-2"
+               },
+               "ID1240121_2" : {
+                  "description" : "ID1240121-2"
+               },
+               "ID1381357_3" : {
+                  "description" : "ID1381357-3"
+               }
+            }
+         }
+      }
+   },
+   "kind" : "tm:sys:version:versionstats",
+   "selfLink" : "https://localhost/mgmt/tm/sys/version?ver=15.1.10.2"
+}
 ```
