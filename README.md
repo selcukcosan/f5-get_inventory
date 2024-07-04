@@ -45,10 +45,11 @@ python f5-get_inventory.py
 ## Files
 - f5-get_inventory.py >> This script file
 - inventory.json >> F5 BIG-IP information ie management ip, username, password, location etc.
-- 
+- f5-get_inventory-export-datetimenow.json >> Output file format
 
 ## output File Example
 the output file name format will be f5-get_inventory-export-datetimenow.json
+When we run the script bigip7 and bigip9 was unreachable. So that the information is missing for these unreachable devices.
 
 ```json
 {
