@@ -273,3 +273,8 @@ When we run the script, bigip7 and bigip9 was unreachable. So that the informati
 	}
 }
 ```
+# Collecting same Information via curl
+curl -s -k -u "admin:password" https://192.168.1.245/mgmt/tm/sys/version | json_pp
+```bash
+
+```
