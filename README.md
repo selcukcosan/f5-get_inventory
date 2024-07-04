@@ -325,3 +325,7 @@ curl -s -k -u "admin:password" https://192.168.1.245/mgmt/tm/sys/version | json_
    "selfLink" : "https://localhost/mgmt/tm/sys/version?ver=15.1.10.2"
 }
 ```
+
+```bash
+curl -s -k -u "admin:password" https://192.168.1.245/mgmt/tm/sys/hardware | json_pp
+```
