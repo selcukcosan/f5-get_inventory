@@ -1,0 +1,101 @@
+{
+    "bigip1": {
+        "inventory_network_os": "f5.bigip",    
+        "inventory_network_location": "Home",         
+        "inventory_host": "192.168.1.245",
+        "inventory_user": "admin",
+        "inventory_pass": "password",
+        "inventory_cli_port": "22",        
+        "inventory_rest_port": "443"
+    },
+    "bigip2": {
+        "inventory_network_os": "f5.bigip",    
+        "inventory_network_location": "Home",         
+        "inventory_host": "192.168.1.246",
+        "inventory_user": "admin",
+        "inventory_pass": "password",
+        "inventory_cli_port": "22",        
+        "inventory_rest_port": "443"
+    },
+    "bigip3": {
+        "inventory_network_os": "f5.bigip",    
+        "inventory_network_location": "Home",         
+        "inventory_host": "192.168.1.247",
+        "inventory_user": "admin",
+        "inventory_pass": "password",
+        "inventory_cli_port": "22",        
+        "inventory_rest_port": "443"
+    },
+    "bigip4": {
+        "inventory_network_os": "f5.bigip",    
+        "inventory_network_location": "Home",         
+        "inventory_host": "192.168.1.248",
+        "inventory_user": "admin",
+        "inventory_pass": "password",
+        "inventory_cli_port": "22",        
+        "inventory_rest_port": "443"
+    },
+    "bigip5": {
+        "inventory_network_os": "f5.bigip",    
+        "inventory_network_location": "Home",         
+        "inventory_host": "192.168.1.249",
+        "inventory_user": "admin",
+        "inventory_pass": "password",
+        "inventory_cli_port": "22",        
+        "inventory_rest_port": "443"
+    },
+    "bigip6": {
+        "inventory_network_os": "f5.bigip",    
+        "inventory_network_location": "Home",         
+        "inventory_host": "192.168.1.250",
+        "inventory_user": "admin",
+        "inventory_pass": "password",
+        "inventory_cli_port": "22",        
+        "inventory_rest_port": "443"
+    },
+    "bigip7": {
+        "inventory_network_os": "f5.bigip",    
+        "inventory_network_location": "Home",         
+        "inventory_host": "192.168.1.251",
+        "inventory_user": "admin",
+        "inventory_pass": "password",
+        "inventory_cli_port": "22",        
+        "inventory_rest_port": "443"
+    },
+    "bigip8": {
+        "inventory_network_os": "f5.bigip",    
+        "inventory_network_location": "Home",         
+        "inventory_host": "192.168.1.244",
+        "inventory_user": "admin",
+        "inventory_pass": "password",
+        "inventory_cli_port": "22",        
+        "inventory_rest_port": "443"
+    },
+    "bigip9": {
+        "inventory_network_os": "f5.bigip",    
+        "inventory_network_location": "Home",         
+        "inventory_host": "192.168.1.252",
+        "inventory_user": "admin",
+        "inventory_pass": "password",
+        "inventory_cli_port": "22",        
+        "inventory_rest_port": "443"
+    },
+    "bigip10": {
+        "inventory_network_os": "f5.bigip",    
+        "inventory_network_location": "Home",         
+        "inventory_host": "192.168.1.243",
+        "inventory_user": "admin",
+        "inventory_pass": "password",
+        "inventory_cli_port": "22",        
+        "inventory_rest_port": "443"
+    },
+    "bigip11": {
+        "inventory_network_os": "f5.bigip",    
+        "inventory_network_location": "Home",         
+        "inventory_host": "192.168.1.231",
+        "inventory_user": "admin",
+        "inventory_pass": "password",
+        "inventory_cli_port": "22",        
+        "inventory_rest_port": "443"
+    }                                                                                                                                                                                                                                                                                                                        
+}
