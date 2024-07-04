@@ -41,3 +41,7 @@ The F5 BIG-IP credential information are in the inventory.json file as below for
 
 python f5-get_inventory.py
 ```
+
+## Files
+- f5-get_inventory.py >> This script file
+- inventory.json >> F5 BIG-IP information ie management ip, username, password, location etc.
