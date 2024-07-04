@@ -1,6 +1,6 @@
 # f5-get_inventory
 
-This Python script connects to each F5 BIG-IP devices in your inventory and collects some information ie. version, platform, serial number, base mac address. The script will export the collected information into a json file.
+This Python script connects to each F5 BIG-IP devices in your inventory via REST API and collects some information ie. version, platform, serial number, base mac address. The script will export the collected information into a json file.
 
 The F5 BIG-IP credential information are in the inventory.json file as below format.
 
