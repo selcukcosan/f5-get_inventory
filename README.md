@@ -49,7 +49,8 @@ python f5-get_inventory.py
 
 ## output File Example
 the output file name format will be f5-get_inventory-export-datetimenow.json
-When we run the script bigip7 and bigip9 was unreachable. So that the information is missing for these unreachable devices.
+
+When we run the script, bigip7 and bigip9 was unreachable. So that the information is missing for these unreachable devices in the output json file.
 
 ```json
 {
